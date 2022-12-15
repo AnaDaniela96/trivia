@@ -183,8 +183,132 @@ const questionnaire = [
   // }
   // //funcion para tomar un objeto diferente y guardarlo
   
+/* fksñakfñs
+let player = []; // arr para el id del jugador
+let plays = []; // arr para las respuestas
 
+//función para saludar
+function sayHi() {
+  //Selecciona ROOT
+let takeRoot = document.getElementById("root");
+// guardar en una variable el valor de name.
+let name = document.getElementById('namePlayer').value;
+  if (
+    //si no pones nombre no puedes jugar
+    name == "" ||
+    name == " " ||
+    name == "  " ||
+    name == "   " ||
+    name == "    "
+  ) {
+    let welcome = document.createElement("p");
+    let boxForQuestions = document.createElement("form");
+    sayHi.textContent = "No te dejaré jugar sí no escribiste un nombre.";
 
+    boxForQuestions.append(welcome);
+    takeRoot.appendChild(boxForQuestions);
+  } else {
+    console.log("que hay, bienvenida " + name);
+    return player.push(name);
+  }
+}
+
+// función cuerpo
+function playNow() {
+  sayHi();
+
+ 
+  takeRoot.innerHTML = "cambiar preguntas";
+  // // jugada uno
+  // let arrs = [];
+  // let q = questionArr[0];
+  // let a = correctArr[0];
+  // let i1 = incorrectArr1[0];
+  // let i2 = incorrectArr2[0];
+  // let i3 = incorrectArr3[0];
+  // arrs.push(q, a, i1, i2, i3);
+  //createQuestionnaire();
+  console.log("no vamo a mori");
+  // let takeRoot = document.getElementById("root");
+  // takeRoot.querySelectorAll(".button").forEach((item) => {
+  //   item.addEventListener("click", (e) => {
+  //     item.style.background = "green";
+  //     let id = e.target.getAttribute("id");
+  //     plays.push(id);
+
+  //     console.log(plays, player, arrs);
+  //     return createQuestionnaire(arrs);
+  //   });
+  // });
+}
+
+// let senD = document.getElementById('sendButton');
+// senD.addEventListener('click', () => {
+//   saveID();
+//   takeRoot.innerHTML = '<h2>siguiente pregunta</h2>';
+// });
+
+// console.log(plays.id);
+//}
+
+// //función para crear el cuestionario, sin estilo todavía
+// function createQuestionnaire(arr) {
+//   let boxForQuestions = document.createElement("form");
+//   let question = document.createElement("h2");
+//   let answer = document.createElement("button");
+//   let answer1 = document.createElement("button");
+//   let answer2 = document.createElement("button");
+//   let answer3 = document.createElement("button");
+//   let send = document.createElement("button");
+
+//   answer.className = "button";
+//   answer.setAttribute("id", "answer");
+//   answer1.className = "button";
+//   answer1.setAttribute("id", "answer1");
+//   answer2.className = "button";
+//   answer2.setAttribute("id", "answer2");
+//   answer3.className = "button";
+//   answer3.setAttribute("id", "answer3");
+//   send.setAttribute("id", "sendButton");
+
+//   takeRoot.innerHTML = "";
+//   sayHi.textContent =
+//     "Hola " +
+//     name +
+//     " puedes comenzar a jugar. Selecciona la respuesta que consideres correcta.";
+//   question.textContent = arr[0];
+//   answer.textContent = arr[1];
+//   answer1.textContent = arr[2];
+//   answer2.textContent = arr[3];
+//   answer3.textContent = arr[4];
+//   send.textContent = "Enviar respuesta";
+
+//   boxForQuestions.append(
+//     sayHi,
+//     question,
+//     answer,
+//     answer1,
+//     answer2,
+//     answer3,
+//     send
+//   );
+//   takeRoot.appendChild(boxForQuestions);
+// }
+//función que escuchá sí se clickeo algún elemento y guarda su id.
+// function saveID() {
+//   let takeRoot = document.getElementById("root");
+//   takeRoot.querySelectorAll(".button").forEach((item) => {
+//     item.addEventListener("click", (e) => {
+//       item.style.background = 'green';
+//       let id = e.target.getAttribute("id");
+//       plays.push(id);
+//       return id;
+//     });
+//   });
+// }
+// //funcion para tomar un objeto diferente y guardarlo
+
+*/
 
 
 

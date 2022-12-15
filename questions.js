@@ -35,7 +35,7 @@ export const questionnaire = [
 ];
 
 // arrays con las propiedades de los objetos.
-export const questionArr = questionnaire.map((e) => {
+export default questionArr = questionnaire.map((e) => {
   return `${e.pregunta}`;
 });
 export const correctArr = questionnaire.map((e) => {

@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200&family=Pacifico&family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
     <title>TriviaChickflick</title>
     <script type="text/javascript" src="app2.js"></script>
   </head>
   <body>
+    <div id="container">
     <div id="root">
-      <header>
+
         <h1 id="title">CHICFLICK</h1>
-      </header> 
-      <h2>Bienvenid@ escribe tu nombre y luego elige una trivia</h2>
-      <input type="text" id='namePlayer' placeholder="Escribe tu nombre" />
-      <div class ='trivia'><button id="films" onclick="playNow()" >Films</button></div>
-      <div class ='trivia'><button onclick="" >¿Cuánto sabés sus creadoras?</button></div> 
+      <h2>Te doy la bienvenida a triviasChickFlick</h2>
+      <input class="btn" type="text" id='namePlayer' placeholder="Escribe tu nombre">
+      <button class="btn" onclick="cincoJugadas()" >Films</button>
+      <button class="btn" onclick="jugar()" >¿Cuánto sabés sus creadoras?</button>
     </div>
-    <footer><p id="footer">Hecho por AnaDaniela Andrade :) </p></footer>
+    <footer id="footer"><p>Hecho por AnaDaniela Andrade :) </p></footer>
+  </div>
   </body>
 </html>
