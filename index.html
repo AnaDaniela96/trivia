@@ -12,13 +12,15 @@
 </head>
 
 <body>
-  <div class="container my-4">
-    <h1 class="text-center p-2">Te doy la bienvenida a mi trivia <em>chic girl</em></h1>
-    <p class="text-center p-2">¿Quieres saber cuanto sabes sobre <em>chicflics?</em></p>
-  </div>
+  <div class="container-fluid" id="presentation-trivia">
+    <div class="container my-4">
+      <h1 class="text-center p-2">Te doy la bienvenida a mi trivia <em>chic girl</em></h1>
+      <p class="text-center p-2">¿Quieres saber cuanto sabes sobre <em>chicflics?</em></p>
+    </div>
 
-  <div class="container my-4 text-center">
-    <button id="openModalBtn" class="btn btn-primary">Juega ahora</button>
+    <div class="container my-4 text-center">
+      <button id="openModalBtn" class="btn btn-primary">Juega ahora</button>
+    </div>
   </div>
 
   <div id="overlay"></div>
@@ -30,14 +32,14 @@
 
   <p id="output" class="text-center mt-4"></p>
 
-  <div class="container my-4">
+  <div class="container my-4" id="container-questions">
     <h3 class="text-center p-3" id="question">¿Quién es la directora de Maria Antonieta?</h3>
 
     <div class="container d-flex flex-column align-items-center justify-content-center">
-      <button class="btn btn-secondary mt-3" id="opcion1">Lucrecia Martel</button>
-      <button class="btn btn-secondary mt-3" id="opcion2">Germaine Dulac</button>
-      <button class="btn btn-secondary mt-3" id="opcion3">Sofía Coppola</button>
-      <button class="btn btn-secondary mt-3" id="opcion4">Agnes Varda</button>
+      <container class="btn btn-secondary mt-3" id="opcion1">Lucrecia Martel</container>
+      <container class="btn btn-secondary mt-3" id="opcion2">Germaine Dulac</container>
+      <container class="btn btn-secondary mt-3" id="opcion3">Sofía Coppola</container>
+      <container class="btn btn-secondary mt-3" id="opcion4">Agnes Varda</container>
     </div>
   </div>
 
