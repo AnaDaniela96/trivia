@@ -1,3 +1,9 @@
+//Global variables
+const containerQuestions = document.getElementById('container-questions');
+const containerHeader = document.getElementById('presentation-trivia');
+
+containerQuestions.classList = 'd-none';
+
 document.getElementById('openModalBtn').addEventListener('click', function() {
     const modal = document.getElementById('myModal');
     const overlay = document.getElementById('overlay');
@@ -27,6 +33,9 @@ document.getElementById('submitBtn').addEventListener('click', function() {
             } else {
                 clearInterval(interval);
                 countdownElement.textContent = "Ok amistad: " + name + " es hora de jugar.";
+                
+                containerHeader.classList = 'd-none';
+                containerQuestions.classList.remove('d-none');
             }
         }, 1000);
     }, 2000);
