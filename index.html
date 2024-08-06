@@ -33,17 +33,14 @@
   <p id="output" class="text-center mt-4"></p>
 
   <div class="container my-4" id="container-questions">
-    <h3 class="text-center p-3" id="question">¿Quién es la directora de Maria Antonieta?</h3>
-
-    <div class="container d-flex flex-column align-items-center justify-content-center">
-      <container class="btn btn-secondary mt-3" id="opcion1">Lucrecia Martel</container>
-      <container class="btn btn-secondary mt-3" id="opcion2">Germaine Dulac</container>
-      <container class="btn btn-secondary mt-3" id="opcion3">Sofía Coppola</container>
-      <container class="btn btn-secondary mt-3" id="opcion4">Agnes Varda</container>
+    <h3 class="text-center p-3" id="question"></h3>
+    <img src="" alt="Question Image" id="question-image" class="img-fluid my-3" style="display: none;">
+    <div class="container d-flex flex-column align-items-center justify-content-center" id="options">
+      <!-- Opciones se cargarán aquí dinámicamente -->
     </div>
   </div>
 
-  <script src="index.js"></script>
+  <script type="module" src="main.js" defer></script>
 </body>
 
 </html>
