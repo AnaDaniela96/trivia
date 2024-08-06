@@ -7,7 +7,7 @@ export const questions = [
         "option2": "10 Things I Hate About You",
         "option3": "She's All That",
         "option4": "Never Been Kissed",
-        "image": "assets/1.svg",
+        "image": "assets/1.webp",
         "correct": "10 Things I Hate About You"
     },
     {
