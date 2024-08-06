@@ -16,7 +16,7 @@ export const questions = [
         "option2": "Drew Barrymore",
         "option3": "Alicia Silverstone",
         "option4": "Sarah Michelle Gellar",
-        "image": "assets/2.svg",
+        "image": "assets/2.webp",
         "correct": "Alicia Silverstone"
     },
     {
@@ -25,7 +25,7 @@ export const questions = [
         "option2": "Sweet Home Alabama",
         "option3": "Cruel Intentions",
         "option4": "Election",
-        "image": "assets/3.svg",
+        "image": "assets/3.webp",
         "correct": "Legally Blonde"
     },
     {
@@ -34,7 +34,7 @@ export const questions = [
         "option2": "Cady Heron",
         "option3": "Regina George",
         "option4": "Gretchen Wieners",
-        "image": "assets/5.svg",
+        "image": "assets/5.webp",
         "correct": "Cady Heron"
     },
     {
@@ -43,7 +43,7 @@ export const questions = [
         "option2": "10 Things I Hate About You",
         "option3": "Clueless",
         "option4": "Never Been Kissed",
-        "image": "assets/4.svg",
+        "image": "assets/4.webp",
         "correct": "Clueless"
     },
     {
@@ -52,7 +52,7 @@ export const questions = [
         "option2": "Heath Ledger",
         "option3": "Paul Walker",
         "option4": "Ryan Phillippe",
-        "image": "assets/6.svg",
+        "image": "assets/6.webp",
         "correct": "Freddie Prinze Jr."
     },
     {
@@ -61,7 +61,7 @@ export const questions = [
         "option2": "Never Been Kissed",
         "option3": "Sweet Home Alabama",
         "option4": "The Princess Diaries",
-        "image": "assets/7.svg",
+        "image": "assets/7.webp",
         "correct": "13 Going on 30"
     },
     {
@@ -70,7 +70,7 @@ export const questions = [
         "option2": "She's All That",
         "option3": "Clueless",
         "option4": "Never Been Kissed",
-        "image": "assets/8.svg",
+        "image": "assets/8.webp",
         "correct": "She's All That"
     },
     {
@@ -79,7 +79,7 @@ export const questions = [
         "option2": "Julie Andrews",
         "option3": "Heather Matarazzo",
         "option4": "Sandra Oh",
-        "image": "assets/9.svg",
+        "image": "assets/9.webp",
         "correct": "Heather Matarazzo"
     },
     {
@@ -88,7 +88,7 @@ export const questions = [
         "option2": "What a Girl Wants",
         "option3": "Sydney White",
         "option4": "Easy A",
-        "image": "assets/10.svg",
+        "image": "assets/10.webp",
         "correct": "She's the Man"
     }
 ];
