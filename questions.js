@@ -1,13 +1,13 @@
 // Preguntas para la trivia
 export const questions = [
-  
+
     {
         "question": "¿En qué película de 1999, protagonizada por Julia Stiles y Heath Ledger, se basa en la obra 'La fierecilla domada' de Shakespeare?",
         "option1": "Clueless",
         "option2": "10 Things I Hate About You",
         "option3": "She's All That",
         "option4": "Never Been Kissed",
-        "image": "link_a_la_imagen1",
+        "image": "assets/1.svg",
         "correct": "10 Things I Hate About You"
     },
     {
@@ -16,7 +16,7 @@ export const questions = [
         "option2": "Drew Barrymore",
         "option3": "Alicia Silverstone",
         "option4": "Sarah Michelle Gellar",
-        "image": "link_a_la_imagen2",
+        "image": "assets/2.svg",
         "correct": "Alicia Silverstone"
     },
     {
@@ -25,7 +25,7 @@ export const questions = [
         "option2": "Sweet Home Alabama",
         "option3": "Cruel Intentions",
         "option4": "Election",
-        "image": "link_a_la_imagen3",
+        "image": "assets/3.svg",
         "correct": "Legally Blonde"
     },
     {
@@ -34,7 +34,7 @@ export const questions = [
         "option2": "Cady Heron",
         "option3": "Regina George",
         "option4": "Gretchen Wieners",
-        "image": "link_a_la_imagen4",
+        "image": "assets/5.svg",
         "correct": "Cady Heron"
     },
     {
@@ -43,7 +43,7 @@ export const questions = [
         "option2": "10 Things I Hate About You",
         "option3": "Clueless",
         "option4": "Never Been Kissed",
-        "image": "link_a_la_imagen5",
+        "image": "assets/4.svg",
         "correct": "Clueless"
     },
     {
@@ -52,7 +52,7 @@ export const questions = [
         "option2": "Heath Ledger",
         "option3": "Paul Walker",
         "option4": "Ryan Phillippe",
-        "image": "link_a_la_imagen6",
+        "image": "assets/6.svg",
         "correct": "Freddie Prinze Jr."
     },
     {
@@ -61,7 +61,7 @@ export const questions = [
         "option2": "Never Been Kissed",
         "option3": "Sweet Home Alabama",
         "option4": "The Princess Diaries",
-        "image": "link_a_la_imagen7",
+        "image": "assets/7.svg",
         "correct": "13 Going on 30"
     },
     {
@@ -70,7 +70,7 @@ export const questions = [
         "option2": "She's All That",
         "option3": "Clueless",
         "option4": "Never Been Kissed",
-        "image": "link_a_la_imagen8",
+        "image": "assets/8.svg",
         "correct": "She's All That"
     },
     {
@@ -79,7 +79,7 @@ export const questions = [
         "option2": "Julie Andrews",
         "option3": "Heather Matarazzo",
         "option4": "Sandra Oh",
-        "image": "link_a_la_imagen9",
+        "image": "assets/9.svg",
         "correct": "Heather Matarazzo"
     },
     {
@@ -88,7 +88,7 @@ export const questions = [
         "option2": "What a Girl Wants",
         "option3": "Sydney White",
         "option4": "Easy A",
-        "image": "link_a_la_imagen10",
+        "image": "assets/10.svg",
         "correct": "She's the Man"
     }
 ];
