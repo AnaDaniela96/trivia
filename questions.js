@@ -1,6 +1,5 @@
 // Preguntas para la trivia
 export const questions = [
-
     {
         "question": "¿En qué película de 1999, protagonizada por Julia Stiles y Heath Ledger, se basa en la obra 'La fierecilla domada' de Shakespeare?",
         "option1": "Clueless",

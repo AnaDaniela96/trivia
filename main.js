@@ -27,7 +27,7 @@ const loadQuestion = (index) => {
 
     for (let i = 1; i <= 4; i++) {
         const option = document.createElement('button');
-        option.classList.add('btn', 'btn-secondary', 'mt-3');
+        option.classList.add('btn', 'button-50', 'mt-3');
         option.id = `option${i}`;
         option.textContent = question[`option${i}`];
         option.addEventListener('click', () => selectAnswer(question[`option${i}`]));
@@ -54,16 +54,19 @@ const showResults = () => {
     const questionContainer = document.getElementById('question');
     const optionsContainer = document.getElementById('options');
     const questionImage = document.getElementById('question-image');
+    const countdownElement = document.getElementById('output');
 
+    countdownElement.textContent = '';
     questionContainer.textContent = 'Resultados';
     optionsContainer.innerHTML = '';
     questionImage.style.display = 'none';
 
     selectedAnswers.forEach((answer, index) => {
         const result = document.createElement('div');
+        
         result.classList.add('alert', answer.selected === answer.correct ? 'alert-success' : 'alert-danger');
         result.textContent = `${index + 1}. ${answer.question} - Tu respuesta: ${answer.selected} (Correcta: ${answer.correct})`;
-        optionsContainer.appendChild(result);
+        optionsContainer.appendChild(result, buttonsReload);
     });
 }
 
@@ -86,7 +89,7 @@ document.getElementById('submitBtn').addEventListener('click', function () {
 
     // Esperar 2 segundos antes de comenzar la cuenta regresiva
     setTimeout(() => {
-        let count = 3;
+        let count = 0;
         countdownElement.textContent = count;
 
         const interval = setInterval(() => {
@@ -95,7 +98,7 @@ document.getElementById('submitBtn').addEventListener('click', function () {
                 countdownElement.textContent = count;
             } else {
                 clearInterval(interval);
-                countdownElement.textContent = "Ok amistad: " + name + " es hora de jugar.";
+                countdownElement.textContent = name + " es hora de jugar.";
 
                 containerHeader.classList = 'd-none';
                 loadQuestion(currentQuestionIndex)
