@@ -26,3 +26,9 @@ This is my first coding project, a trivia application where players can choose a
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/trivia-game.git
+
+## Future Improvements
+- Randomizing answer buttons.
+- Adding a timer for each question.
+- Improving mobile responsiveness.
+
