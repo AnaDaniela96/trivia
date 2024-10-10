@@ -1,3 +1,4 @@
+![welcome to trivia chic](/assets/1.webp)
 # Trivia Game - Single Page Application (SPA)
 
 ## Description
@@ -16,6 +17,25 @@ This is my first coding project, a trivia application where players can choose a
 2. **Question Display:** A function generates the question and answer elements dynamically.
 3. **Answer Handling:** Each time the player selects an answer, it is stored, and the player can return to change it.
 4. **Progression:** The game navigates to the next question, and the process repeats until all questions are answered.
+
+## Design Style
+
+The design of the project is **pop** and **chic**, inspired by early 2000s aesthetics to make the experience engaging and fun for players who love **chick flicks**. The color palette is light and vibrant, incorporating shades of pink and purple to emphasize the playful and stylish vibe.
+
+Below is a preview of the main page design:
+
+![Styles color palette](./assets/2.png)
+![Styles](./assets/3.png)
+
+## Responsiveness
+
+The trivia app is fully responsive, adjusting smoothly across different screen sizes, from mobile devices to desktop computers. Here’s an example demonstrating how the design adapts:
+
+### Desktop:
+![Desktop View](./assets/1.png)
+
+### Mobile:
+![Mobile View](./assets/4.png)
 
 ## Technologies Used
 - JavaScript (for game logic and dynamic content generation)
